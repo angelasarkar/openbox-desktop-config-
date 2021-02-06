@@ -1,0 +1,100 @@
+i: /usr/share/pixmaps/wbar/dock.png
+c: wbar --bpress --above-desk --nofont --pos bottom --isize 50 --idist 14 --nanim 4 --zoomf 1.300000 --jumpf 1.100000 --balfa 100 --falfa 96 --fc 0xff000000
+t: /usr/share/fonts/truetype/liberation/LiberationMono-Regular/20
+
+i: /home/jerome/.config/icons/Apps-preferences-desktop-wallpaper-icon.png
+c: lxappearance 
+t: lxapprience
+
+
+i: /home/jerome/.config/icons/launchpad-icon.png
+c: nwggrid  -n 8 -s 80 -b C551BA   -wm openbox -o 0.3
+t: launcher
+
+
+i: /opt/BROWSING_DATA/surf/icons/facetime-icon.png
+c: firejail /usr/bin/hexchat -n
+t: hexchat
+
+i: /opt/google/chrome/product_logo_256.png
+c: sh "/home/$(whoami)/my scripts/gchrome.sh"
+t: chrome
+
+i: /opt/BROWSING_DATA/surf/icons/chromium-browser-icon.png
+c: exec  chromium-browser  --user-agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36'    --no-pings    --disable-plugins  
+t: chromium
+
+i: /home/jerome/.config/icons/iconfinder_utilities-terminal_118830.svg
+c: gthumb
+t: Image Viewer
+
+i: /usr/share/icons/hicolor/256x256/apps/icecat.png
+c: exec  icecat
+t: icecat
+
+i: /usr/share/icons/hicolor/64x64/apps/gpodder.png
+c: gpodder
+t: gpodder
+
+i: /usr/share/icons/hicolor/256x256/apps/thonny.png
+c: thonny
+t: tonny
+
+i: /opt/visualstudio/programfiles/usr/share/pixmaps/com.visualstudio.code.png
+c: exec xterm -e "/home/jerome/my scripts/vscode.sh"
+t: vscode
+
+i: /opt/BROWSING_DATA/surf/icons/finder-icon.png
+c: spacefm
+t: File Manager
+
+i: /usr/share/icons/Adwaita/512x512/apps/utilities-terminal.png
+c: sakura
+t: sakura
+
+i: /opt/BROWSING_DATA/surf/icons/safari-icon.png
+c: exec sr.sh
+t: safari
+
+i: /opt/BROWSING_DATA/surf/icons/preview-icon.png
+c: nitrogen
+t: nitrogen 
+#c: monodoc
+#t: monodoc
+
+i: /opt/discord/share/pixmaps/discord.png
+c: exec  xterm -e "/home/$(whoami)/my scripts/discord.sh"
+t: discord
+
+i: /usr/share/icons/Adwaita/512x512/apps/utilities-system-monitor.png
+c: sakura -e htop 
+t: htop
+
+i: /usr/share/icons/hicolor/48x48/mimetypes/application-x-codeblocks.png
+c: exec xterm -e codeblocks
+t: codeblocks
+
+i: /media/jerome/AS/Softwares/android-studio/android-studio/bin/studio.png
+c: exec xterm -e  /media/jerome/AS/Softwares/android-studio/android-studio/bin/studio.sh
+t: android studio
+
+i: /usr/share/icons/hicolor/256x256/apps/org.gnome.GHex.png
+c: ghex
+t: ghex
+
+i: /usr/share/icons/hicolor/256x256/apps/smtube.png
+c: exec   smtube
+t: smtube
+
+i: /usr/share/icons/hicolor/scalable/apps/orion.svg
+c: orion
+t: orion
+
+i: /opt/BROWSING_DATA/surf/icons/textedit-icon.png
+c: bluefish
+t: bluefish
+
+i: /opt/BROWSING_DATA/surf/icons/Documents-icon.png
+c: FBReader
+t: FBReader
+
